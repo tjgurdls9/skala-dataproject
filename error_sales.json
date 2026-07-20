@@ -1,0 +1,156 @@
+[
+    {
+        "row": {
+            "category": "전자",
+            "amount": 1750,
+            "month": "2024-03"
+        },
+        "error": [
+            {
+                "type": "missing",
+                "loc": [
+                    "region"
+                ],
+                "msg": "Field required",
+                "input": {
+                    "category": "전자",
+                    "amount": 1750,
+                    "month": "2024-03"
+                },
+                "url": "https://errors.pydantic.dev/2.13/v/missing"
+            }
+        ]
+    },
+    {
+        "row": {
+            "region": "인천",
+            "category": "전자",
+            "month": "2024-04"
+        },
+        "error": [
+            {
+                "type": "missing",
+                "loc": [
+                    "amount"
+                ],
+                "msg": "Field required",
+                "input": {
+                    "region": "인천",
+                    "category": "전자",
+                    "month": "2024-04"
+                },
+                "url": "https://errors.pydantic.dev/2.13/v/missing"
+            }
+        ]
+    },
+    {
+        "row": {
+            "category": "전자",
+            "amount": 1150,
+            "month": "2024-04"
+        },
+        "error": [
+            {
+                "type": "missing",
+                "loc": [
+                    "region"
+                ],
+                "msg": "Field required",
+                "input": {
+                    "category": "전자",
+                    "amount": 1150,
+                    "month": "2024-04"
+                },
+                "url": "https://errors.pydantic.dev/2.13/v/missing"
+            }
+        ]
+    },
+    {
+        "row": {
+            "region": "서울",
+            "category": "의류",
+            "amount": 1420
+        },
+        "error": [
+            {
+                "type": "missing",
+                "loc": [
+                    "month"
+                ],
+                "msg": "Field required",
+                "input": {
+                    "region": "서울",
+                    "category": "의류",
+                    "amount": 1420
+                },
+                "url": "https://errors.pydantic.dev/2.13/v/missing"
+            }
+        ]
+    },
+    {
+        "row": {
+            "region": "대전",
+            "category": "전자",
+            "month": "2024-04"
+        },
+        "error": [
+            {
+                "type": "missing",
+                "loc": [
+                    "amount"
+                ],
+                "msg": "Field required",
+                "input": {
+                    "region": "대전",
+                    "category": "전자",
+                    "month": "2024-04"
+                },
+                "url": "https://errors.pydantic.dev/2.13/v/missing"
+            }
+        ]
+    },
+    {
+        "row": {
+            "category": "전자",
+            "amount": 1500,
+            "month": "2024-02"
+        },
+        "error": [
+            {
+                "type": "missing",
+                "loc": [
+                    "region"
+                ],
+                "msg": "Field required",
+                "input": {
+                    "category": "전자",
+                    "amount": 1500,
+                    "month": "2024-02"
+                },
+                "url": "https://errors.pydantic.dev/2.13/v/missing"
+            }
+        ]
+    },
+    {
+        "row": {
+            "region": "울산",
+            "category": "전자",
+            "amount": 1600
+        },
+        "error": [
+            {
+                "type": "missing",
+                "loc": [
+                    "month"
+                ],
+                "msg": "Field required",
+                "input": {
+                    "region": "울산",
+                    "category": "전자",
+                    "amount": 1600
+                },
+                "url": "https://errors.pydantic.dev/2.13/v/missing"
+            }
+        ]
+    }
+]
