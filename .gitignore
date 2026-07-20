@@ -2,4 +2,5 @@ __pycache__/
 *.pyc
 .venv/
 .env
-.coverage.DS_Store
+.coverage
+.DS_Store
