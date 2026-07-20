@@ -1,5 +1,5 @@
 """
-파일명: 광주_1반_서혁인_day1.py
+파일명: pipeline_main.py
 프로그램 설명: Day 1 종합 실습 - 비동기 API 수집, Pydantic 검증, CSV/Parquet 저장 및 성능 비교 파이프라인
 변경 내역: 2026-07-20 최초 작성
 작성자: 광주_1반_서혁인
@@ -23,6 +23,7 @@ API_ENDPOINTS = {
     "country": "https://countries.dev/alpha/KOR",
     "ip_info": "http://ip-api.com/json/8.8.8.8"
 }
+
 
 # ==========================================
 # 1) Pydantic v2 스키마 정의 (데이터 검증)
@@ -141,12 +142,13 @@ def main():
     _ = pd.read_parquet(parquet_path)
     parquet_read_time = time.time() - t0
 
-    # 성능 비교 결과 출력
+    # 성능 비교 결과 출력 (포맷 구문 수정 완료)
     print("\n" + "=" * 50)
     print("📊 [CSV vs Parquet 성능 비교 결과]")
-    print(f" - CSV   | 쓰기: {csv_write_time:.6f초} | 읽기: {csv_read_time:.6f}초")
+    print(f" - CSV     | 쓰기: {csv_write_time:.6f}초 | 읽기: {csv_read_time:.6f}초")
     print(f" - Parquet | 쓰기: {parquet_write_time:.6f}초 | 읽기: {parquet_read_time:.6f}초")
     print("=" * 50)
+
 
 if __name__ == "__main__":
     main()
